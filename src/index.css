@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #3b82f6;
+  --color-secondary: #6366f1;
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;
+  --color-accent: #f59e0b;
+  --color-text: #1e293b;
+  --color-text-muted: #64748b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f1f5f9;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+.drag-handle {
+  cursor: grab;
+}
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+.preview-primary { background-color: var(--color-primary) !important; }
+.preview-secondary { background-color: var(--color-secondary) !important; }
+.preview-bg { background-color: var(--color-background) !important; }
+.preview-surface { background-color: var(--color-surface) !important; }
+.preview-accent { background-color: var(--color-accent) !important; }
+.text-preview-primary { color: var(--color-primary) !important; }
+.text-preview-secondary { color: var(--color-secondary) !important; }
+.text-preview-accent { color: var(--color-accent) !important; }
+.text-preview-text { color: var(--color-text) !important; }
+.text-preview-muted { color: var(--color-text-muted) !important; }
+.border-preview-primary { border-color: var(--color-primary) !important; }
+
+.preview-btn-primary {
+  background-color: var(--color-primary) !important;
+  color: #fff !important;
+}
+.preview-btn-outline {
+  border: 2px solid var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  background: transparent !important;
+}
