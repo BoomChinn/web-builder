@@ -1,16 +1,26 @@
-# React + Vite
+# AI-Powered Website Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based application that allows users to create, customize, and preview websites in real-time.
 
-Currently, two official plugins are available:
+## Project Overview
+This tool features an intuitive interface with drag-and-drop interactions for managing layouts, a global color theme engine, and a live preview canvas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Core Features
+- **Template Selection:** Choose from categories like Corporate, E-commerce, Portfolio, and Landing Page.
+- **Global Color Theme Engine:** Dynamic color customization via CSS variables, inspired by Color Hunt.
+- **Section & Layout Editor:** Ready-to-use sections including Hero, Features, Testimonials, Pricing, and Video Embeds.
+- **Real-time Live Preview:** Instant updates with device viewport toggles (Mobile, Tablet, Desktop).
+- **In-Canvas Interactions:** Drag-and-drop section reordering directly within the preview.
+- **Image Management:** Integration with Unsplash API for high-quality photos.
+- **Dark/Light Mode:** Full support for the builder interface.
 
-## React Compiler
+## Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS.
+- **State Management:** Zustand.
+- **Styling:** PostCSS, CSS Variables.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Run the development server: `npm run dev`.
+4. Build for production: `npm run build`.
